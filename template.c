@@ -11,7 +11,6 @@ typedef long int32;
 main () {
     FILE *fin  = fopen ("milk.in", "r");
     FILE *fout = fopen ("milk.out", "w");
-	//fout=stdout;
     int i;
     fscanf (fin, "%d", &i);
     fprintf (fout, "\n");
